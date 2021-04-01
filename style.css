@@ -133,3 +133,14 @@
     filter: grayscale(0.5);
     filter: sepia(0.4);
 }
+
+/* Esercizio 8 */
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(0.7);
+    filter: sepia(0.5);
+    border-radius: 5%;
+}
